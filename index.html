@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SB3 Editor</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jsoneditor/10.0.1/jsoneditor.min.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/jsoneditor/10.0.1/jsoneditor.min.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <script src="index.js"></script>
+
+    <h1>SB3 File Editor</h1>
+    <div id="toolbar">
+        <button id="open" onclick="openSb3File()">Open SB3 File</button>
+        <button id="save" onclick="saveToFileSystem()">Save Back to File</button>
+    </div>
+    <div id="jsoneditor"></div>
+</body>
+</html>

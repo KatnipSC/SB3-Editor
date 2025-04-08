@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif; 
+    padding: 20px;
+}
+
+#jsoneditor {
+    width: 100%; 
+    height: 400px;
+    margin-top: 10px; 
+}
+
+#toolbar { 
+    display: flex;
+}
+
+button {
+    margin: 10px 5px;
+    padding: 10px; 
+}
